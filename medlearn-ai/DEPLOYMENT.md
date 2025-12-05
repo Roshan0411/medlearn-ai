@@ -10,7 +10,7 @@
 ### Step 1: Prepare Your Repository
 
 1. **Push your code to GitHub**
-   ```bash
+   ```bash 
    git init
    git add .
    git commit -m "Initial commit"
@@ -38,7 +38,7 @@
    - **Name**: `medlearn-api` (or your preferred name)
    - **Region**: Choose closest to your users
    - **Branch**: `main`
-   - **Root Directory**: `backend`
+   - **Root Directory**: `backend` (IMPORTANT: Must specify this!)
    - **Runtime**: `Python 3`
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
