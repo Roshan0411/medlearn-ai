@@ -11,4 +11,6 @@ services:
       - key: ENVIRONMENT
         value: production
       - key: FRONTEND_URL
-        sync: false
+        value: http://localhost:5173
+      - key: PYTHON_VERSION
+        value: 3.11.0
